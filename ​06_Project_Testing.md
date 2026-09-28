@@ -342,77 +342,9 @@ State changed on the form
 
 ---
 
-# 6.10 Consolidated Test Case Table
 
-| Test ID | Test Scenario                          | Expected Result                                     | Actual Result  | Status         |
-| ------- | -------------------------------------- | --------------------------------------------------- | -------------- | -------------- |
-| TC-01   | High Impact with Assigned To empty     | Submission prevented and validation error displayed | To be recorded | To be recorded |
-| TC-02   | High Impact with Assigned To populated | Incident successfully saved                         | To be recorded | To be recorded |
-| TC-03A  | Change Impact to High                  | Urgency automatically set to High                   | To be recorded | To be recorded |
-| TC-04   | Change Impact from High to Medium      | Conditional behavior reversed                       | To be recorded | To be recorded |
-| TC-05   | Edit State through list                | Alert displayed and change rejected                 | To be recorded | To be recorded |
-| TC-06   | Edit State through form                | State successfully updated                          | To be recorded | To be recorded |
 
----
-
-# 6.11 Testing Evidence and Screenshots
-
-Screenshots should be included in the GitHub repository to provide visual evidence of the implementation and testing process.
-
-Recommended screenshot organization:
-
-```text
-06-Project-Testing/
-│
-├── Test-Cases.md
-│
-└── screenshots/
-    ├── TC-01-high-impact-validation.png
-    ├── TC-02-successful-submission.png
-    ├── TC-03-automatic-urgency.png
-    ├── TC-04-reverse-condition.png
-    ├── TC-05-list-edit-restriction.png
-    └── TC-06-form-state-update.png
-```
-
-Each screenshot should clearly demonstrate the relevant test condition or result.
-
----
-
-# 6.12 Defect Recording
-
-If a test does not produce the expected result, the issue should be documented rather than marking the test as passed.
-
-The following format can be used:
-
-| Defect ID | Test ID | Observed Issue          | Expected Behavior        | Action Taken        | Status        |
-| --------- | ------- | ----------------------- | ------------------------ | ------------------- | ------------- |
-| DEF-01    | TC-XX   | Describe observed issue | Describe expected result | Describe correction | Open/Resolved |
-
-This provides a clear record of any configuration changes made during testing.
-
----
-
-# 6.13 Final Testing Review
-
-Before completing the testing phase, verify the following:
-
-* [ ] High Impact condition has been tested.
-* [ ] Assignment Group mandatory behavior has been verified.
-* [ ] Urgency automatic update has been verified.
-* [ ] Urgency read-only behavior has been verified.
-* [ ] Assigned To submission validation has been tested.
-* [ ] Reverse UI Policy behavior has been tested.
-* [ ] State list-edit restriction has been tested.
-* [ ] Form-based State update has been tested.
-* [ ] Actual results have been entered.
-* [ ] Screenshots have been captured.
-* [ ] Any defects have been documented.
-* [ ] Final testing evidence has been added to GitHub.
-
----
-
-# 6.14 Testing Conclusion
+# 6.10 Testing Conclusion
 
 The testing phase is intended to confirm that the ServiceNow UI Policies and Client Scripts operate according to the defined project requirements.
 
