@@ -104,6 +104,8 @@ g_form.getValue('assigned_to') == ''
 
 When both conditions are true, the script displays an error and returns `false`, preventing submission.
 
+<img width="1365" height="561" alt="tc1 mandatory" src="https://github.com/user-attachments/assets/45f27722-47a1-41fa-8d46-ba388f0614f6" />
+
 
 # 6.5 Test Case 2 – Successful Submission with Assigned To
 
@@ -145,6 +147,8 @@ The test should also verify the other High Impact behaviors:
 * The Incident should be saved successfully.
 
 The project document specifically identifies successful saving after providing Assigned To as one of the testing scenarios.
+<img width="1365" height="606" alt="tc2" src="https://github.com/user-attachments/assets/38a7720b-6df5-48cf-a754-d573be21a2d1" />
+
 
 # 6.6 Test Case 3 – Automatic Urgency Update
 
@@ -194,21 +198,7 @@ Urgency set to High for High impact incident.
 
 The source document specifies this behavior for the OnChange Client Script.
 
-## Actual Result
-
-**To be recorded after execution.**
-
-## Status
-
-**To be recorded**
-
-## Evidence
-
-Capture a screenshot showing:
-
-* Impact changed to High.
-* Urgency automatically updated.
-* Informational message, if displayed.
+<img width="1365" height="611" alt="tc3" src="https://github.com/user-attachments/assets/8ae011db-a6c3-4c7d-b3f6-5f30cb86fd9e" />
 
 ---
 
@@ -253,7 +243,8 @@ When Impact is changed from High to Medium:
 
 The source document specifically defines this reverse-condition scenario.
 
-
+23
+<img width="1365" height="603" alt="tc4" src="https://github.com/user-attachments/assets/c2e7b320-1a9d-4f59-8cc1-25952067e19b" />
 
 ---
 
@@ -303,6 +294,7 @@ callback(false);
 
 to prevent the list-edit operation.
 
+<img width="1365" height="675" alt="tc5" src="https://github.com/user-attachments/assets/2472fa25-0b19-42d4-9b60-14f5a26e167c" />
 
 
 # 6.9 Test Case 6 – Form-Based State Update
@@ -339,21 +331,14 @@ The State should be successfully updated through the Incident form.
 
 The list-edit restriction should apply specifically to direct list editing and should not prevent a normal form-based update.
 
-## Actual Result
+Incident form before the State change
+<img width="1365" height="623" alt="tc6 1" src="https://github.com/user-attachments/assets/7a420bbd-8b85-43fd-b2cd-bcd4830774dc" />
 
-**To be recorded after execution.**
 
-## Status
+State changed on the form
+<img width="1365" height="606" alt="tc2" src="https://github.com/user-attachments/assets/b06ddc74-46b3-4940-8577-a2257270d7a9" />
 
-**To be recorded**
-
-## Evidence
-
-Capture screenshots showing:
-
-* Incident form before the State change.
-* State changed on the form.
-* Updated Incident after submission.
+<img width="1365" height="601" alt="tc6 3" src="https://github.com/user-attachments/assets/b6a0f79f-9df5-49f3-9892-14e0e714a279" />
 
 ---
 
