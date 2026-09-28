@@ -65,7 +65,8 @@ The policy is triggered when:
 When this condition is true, the associated UI Policy Actions are applied.
 
 The policy includes reverse behavior so that the conditional field settings can be restored when the Impact condition is no longer true.
-
+<img width="1365" height="633" alt="f1" src="https://github.com/user-attachments/assets/04c4d318-dfa5-4ff3-9b7c-440b4457d97f" />
+<img width="1365" height="607" alt="f1 1" src="https://github.com/user-attachments/assets/e2a8bbf9-e17b-4c6c-a056-a9abf4e6a3ef" />
 
 ---
 
@@ -78,6 +79,7 @@ When Impact is High:
 **Assignment Group becomes mandatory.**
 
 This ensures that the required assignment information is provided for the defined High Impact condition.
+<img width="1364" height="633" alt="f2" src="https://github.com/user-attachments/assets/8b78f69e-3ab9-4927-b72c-214fb030b645" />
 
 ---
 
@@ -90,6 +92,7 @@ When Impact is High:
 **Urgency becomes read-only.**
 
 This prevents direct modification of the Urgency field while the specified UI Policy condition is active.
+<img width="1365" height="594" alt="f3" src="https://github.com/user-attachments/assets/4ed93ced-70a9-4c9f-acfd-a1295769532a" />
 
 ---
 
@@ -108,6 +111,7 @@ When the user changes Impact to High, the script automatically sets:
 An informational message is also displayed to inform the user that the Urgency value has been updated.
 
 This reduces manual data entry and provides immediate feedback on the Incident form.
+<img width="1365" height="613" alt="f4" src="https://github.com/user-attachments/assets/a64042b0-6092-408a-a8ac-95b317d1e0dd" />
 
 ---
 
@@ -127,6 +131,7 @@ It checks whether:
 If both conditions are true, the Incident submission is prevented and an error message is displayed.
 
 This provides an additional validation layer before the Incident is saved.
+<img width="1365" height="625" alt="f5" src="https://github.com/user-attachments/assets/50c0d58a-d04d-4504-bc1e-b965d71d07b8" />
 
 ---
 
@@ -143,6 +148,7 @@ When a user attempts to change State directly from the Incident list, an alert m
 The user is instructed to open the Incident instead.
 
 This restriction applies specifically to list editing and does not prevent normal State updates through the Incident form.
+<img width="1365" height="606" alt="f6" src="https://github.com/user-attachments/assets/b8937df4-2b1d-4744-b572-9193daa42c2a" />
 
 ---
 
